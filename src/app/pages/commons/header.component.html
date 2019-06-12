@@ -1,0 +1,49 @@
+<h1 class="site-heading text-center text-white d-none d-lg-block">
+  <!-- <span class="site-heading-upper text-primary mb-3">A Free Bootstrap 4 Business Theme</span> -->
+  <span class="site-heading-lower">Akomba Aventures</span>
+</h1>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Akomba Aventures</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active px-lg-4">
+          <a class="nav-link text-uppercase text-expanded" [routerLink]="['/home']">Accueil
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown px-lg-4">
+          <a class="nav-link dropdown-toggle text-uppercase text-expanded" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Excursion</a>
+          <div class="dropdown-menu dropdown-menu-left custom-dropdown">
+            <a class="dropdown-item text-expanded" href="#">Nosy Komba - Nosy Taninkely</a>
+            <a class="dropdown-item" href="#">Nosy Iranja</a>
+            <a class="dropdown-item" [routerLink]="['/excursion/nosy-sakatia']">Nosy Sakatia</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Sortie Requin-Baleine</a>
+            <a class="dropdown-item" href="#">Tour de l'ile en voiture</a>
+            <a class="dropdown-item" href="#">Sortie Requin-Baleine</a>
+            <a class="dropdown-item" href="#">Sortie Requin-Baleine</a>
+          </div>
+        </li>
+        <!-- <li class="nav-item px-lg-4">
+          <a class="nav-link text-uppercase text-expanded" href="products.html">Excursion</a>
+        </li> -->
+        <li class="nav-item px-lg-4">
+          <a class="nav-link text-uppercase text-expanded" href="store.html">Transfert</a>
+        </li>
+        <li class="nav-item px-lg-4">
+          <a class="nav-link text-uppercase text-expanded" href="store.html">Location bateau</a>
+        </li>
+        <li class="nav-item px-lg-4">
+          <a class="nav-link text-uppercase text-expanded" href="about.html">A propos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

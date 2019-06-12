@@ -3,10 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './pages/commons/header.component';
+import { FooterComponent } from './pages/commons/footer.component';
+import { HomeComponent } from './pages/home.component';
+import { SakatiaComponent } from './pages/sakatia.component';
+import { ExcursionComponent } from './pages/excursion.component';
+import { NotFoundComponent } from './pages/commons/not-found.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    HomeComponent,
+    SakatiaComponent,
+    ExcursionComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
