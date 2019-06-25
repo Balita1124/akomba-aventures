@@ -5,10 +5,10 @@ import {ExcursionComponent} from './pages/excursion.component';
 import {NotFoundComponent} from './pages/commons/not-found.component';
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent, data: {title: 'Product List'}},
+  {path: '', component: HomeComponent, data: {title: 'Home'}},
   {path: '404', component: NotFoundComponent},
   {path: 'excursion/:url', component: ExcursionComponent, data: {title: 'Nosy Sakatia | Akomba aventures'}},
-  {path: '', redirectTo: '/home', pathMatch: 'full'}
+  {path: 'home', redirectTo: '', pathMatch: 'full'}
 ];
 
 @NgModule({
