@@ -10,6 +10,7 @@ import { SakatiaComponent } from './pages/sakatia.component';
 import { ExcursionComponent } from './pages/excursion.component';
 import { NotFoundComponent } from './pages/commons/not-found.component';
 import { NguiInViewComponent } from './pages/common/ngui-in-view.component';
+import { AboutComponent } from './pages/about.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NguiInViewComponent } from './pages/common/ngui-in-view.component';
     SakatiaComponent,
     ExcursionComponent,
     NotFoundComponent,
-    NguiInViewComponent
+    NguiInViewComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
