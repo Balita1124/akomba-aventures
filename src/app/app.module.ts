@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './pages/commons/header.component';
 import { FooterComponent } from './pages/commons/footer.component';
 import { HomeComponent } from './pages/home.component';
-import { SakatiaComponent } from './pages/sakatia.component';
+// import { SakatiaComponent } from './pages/sakatia.component';
 import { ExcursionComponent } from './pages/excursion.component';
 import { NotFoundComponent } from './pages/commons/not-found.component';
 import { NguiInViewComponent } from './pages/common/ngui-in-view.component';
@@ -18,7 +18,7 @@ import { AboutComponent } from './pages/about.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    SakatiaComponent,
+    // SakatiaComponent,
     ExcursionComponent,
     NotFoundComponent,
     NguiInViewComponent,
